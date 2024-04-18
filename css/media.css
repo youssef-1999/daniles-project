@@ -1,0 +1,64 @@
+@media (min-width:100px) and (max-width:1000px) {
+#client .custom_text_carousel
+    {
+      
+        max-width: 30rem;
+    }
+}
+
+@media (min-width:100px) and  (max-width:725px) {
+    #header  .layer_caption h1
+    {
+        font-size: 1.1rem;
+    }
+    #header  .layer_caption h1::after
+    {
+        
+        font-size: 1.1rem;
+    }
+    #services .test_services p 
+    {
+        
+        font-size: 0.8rem;
+    }
+    #services 
+    {
+        padding: 10px !important;
+
+    }
+    #about 
+    {
+        padding: 10px !important;
+
+    }
+    #client 
+    {
+        padding: 10px !important;
+
+    }
+    #team 
+    {
+        padding: 10px !important;
+
+    }
+    #contact 
+    {
+        padding: 10px !important;
+
+    }
+}
+
+@media (min-width:401px) and (max-width:760px)
+{
+    
+    #services .test_services p 
+    {
+        
+        font-size: 0.8rem;
+    }
+    #services .container
+    {
+        width: 100% !important;
+
+    }
+}
